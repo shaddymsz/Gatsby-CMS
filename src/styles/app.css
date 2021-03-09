@@ -19,6 +19,7 @@ what's here to work the way you'd like it to.
 /* Variables
 /* ---------------------------------------------------------- */
 
+
 :root {
 
     /* Colours */
@@ -1160,3 +1161,4 @@ h6 {
   .kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
     margin: -2.25em 0 3em;
   }
+  

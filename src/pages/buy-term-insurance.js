@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { Tags } from '@tryghost/helpers-gatsby'
 import { readingTime as readingTimeHelper } from '@tryghost/helpers'
 
-const PostCard = ({ post }) => {
+const BuyTI = ({ post }) => {
     const url = `/${post.slug}/`
     const readingTime = readingTimeHelper(post)
     console.log(post)
@@ -40,7 +40,7 @@ const PostCard = ({ post }) => {
     )
 }
 
-PostCard.propTypes = {
+BuyTI.propTypes = {
     post: PropTypes.shape({
         slug: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
@@ -59,4 +59,4 @@ PostCard.propTypes = {
     }).isRequired,
 }
 
-export default PostCard
+export default BuyTI

@@ -14,6 +14,7 @@ import { MetaData } from '../components/common/meta'
 */
 const Post = ({ data, location }) => {
     const post = data.ghostPost
+    console.log(`data post ` + post)
 
     return (
         <>
@@ -32,14 +33,23 @@ const Post = ({ data, location }) => {
                             <figure className="post-feature-image">
                                 <img src={ post.feature_image } alt={ post.title } />
                             </figure> : null }
-                        <section className="post-full-content">
-                            <h1 className="content-title">{post.title}</h1>
+                        <section className="cms-wrapper grid-960 bg-grey-2 grid-960">
+                            <div className="container">
+                                <div className="cc">
+                                    <div className="cc__title">
+                                        <h2 className="content-title">{post.title}</h2>
+                                    </div>
+                                    <div className="cc__bodytext text-left">
+                                        <section
+                                            className="content-body load-external-scripts"
+                                            dangerouslySetInnerHTML={{ __html: post.html }}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
 
                             {/* The main post content */ }
-                            <section
-                                className="content-body load-external-scripts"
-                                dangerouslySetInnerHTML={{ __html: post.html }}
-                            />
+                            
                         </section>
                     </article>
                 </div>

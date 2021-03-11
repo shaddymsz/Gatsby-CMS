@@ -1,11 +1,11 @@
 import React from 'react'
 import { Layout } from '../components/common'
 
-function Calculator() {
+function CalculatorTI() {
     return (
         <Layout>
         </Layout>
     )
 }
 
-export default Calculator
+export default CalculatorTI

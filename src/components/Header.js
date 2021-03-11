@@ -177,25 +177,25 @@ function Header() {
                                         <Link to="/life-insurance/">Life Insurance</Link>
                                     </li>
                                     <li>
-                                        <a href="/life-insurance/life-insurance-calculator/">Life Insurance calculator</a>
+                                        <Link to="/life-insurance-calculator/">Life Insurance Calculator</Link>
                                     </li>
                                     <li>
-                                        <a href="/life-insurance/term-insurance/term-insurance-calculator/">Term Insurance calculator</a>
+                                        <Link to="/term-insurance-calculator/">Term Insurance Calculator</Link>
                                     </li>
                                     <li>
-                                        <a href="/life-insurance-plans/">Life Insurance Plans</a>
+                                        <Link to="/life-insurance-plans/">Life Insurance Plans</Link>
                                     </li>
                                     <li>
                                         <a href="/life-insurance/term-insurance/articles/1-crore-term-insurance/">1 crore term insurance</a>
                                     </li>
                                     <li>
-                                        <a href="/term-insurance/term-insurance-comparison/">Compare Term Insurance</a>
+                                        <Link to="/term-insurance-comparison/">Compare Term Insurance</Link>
                                     </li>
                                     <li>
                                         <a href="/term-insurance/buy-term-insurance/">Buy Term Insurance</a>
                                     </li>
                                     <li>
-                                        <a href="/life-insurance-renewals/">Term Insurance Renewals</a>
+                                        <Link to="/term-insurance-renewals/">Term Insurance Renewals</Link>
                                     </li>
                                 </ul>
                             </li>

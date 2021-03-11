@@ -19,6 +19,7 @@ import Footer from '../Footer'
 */
 const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node
+    console.log(`site data ` + site)
    
     return (
         <>
@@ -42,7 +43,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </div>
 
                 <div className="viewport-bottom">
-                    <Footer/>
+                    {/* <Footer/> */}
 
                 </div>
             </div>
@@ -74,7 +75,7 @@ const DefaultLayoutSettingsQuery = props => (
                 }
                 file(relativePath: {eq: "ghost-icon.png"}) {
                     childImageSharp {
-                        fixed(width: 30, height: 30) {
+                        fixed(width:40 , height: 30) {
                             ...GatsbyImageSharpFixed
                         }
                     }

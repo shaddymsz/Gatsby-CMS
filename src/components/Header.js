@@ -168,7 +168,7 @@ function Header() {
                                 <span className="menu-dropdown-font"></span>
                                 <ul className="nav-list">
                                     <li>
-                                        <Link to="/term-insurance/">Term Insurance</Link>
+                                        <Link to="/features-of-term-insurance-plan/">Term Insurance</Link>
                                     </li>
                                     <li>
                                         <Link to="/term-insurance-companies/">Companies</Link>
